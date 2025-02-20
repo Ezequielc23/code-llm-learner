@@ -1,0 +1,8 @@
+# Configuration file (optional, extend as needed)
+model:
+  name: "codellama/CodeLlama-13b-hf"
+chunking:
+  size: 1000
+  overlap: 200
+db:
+  path: "codebase_db"
