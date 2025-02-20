@@ -3,9 +3,9 @@ from openai import OpenAI
 
 def setup_llm(api_key, model_name="grok-2-latest"):  # Default to grok-2-latest until Grok 3 is available
     """Set up the xAI API client."""
-    os.environ["XAI_API_KEY"] = api_key
+    api_key = "xai-NcwWMnDJOlh9QANTqGyUHV4TUku8Mtgnsd8ZXt7TuwlYjIwg4NJpXtJ26hAwmyOreKQmsh5AO0ug5eZq"
     client = OpenAI(
-        api_key=os.environ["XAI_API_KEY"],
+        api_key=api_key,
         base_url="https://api.x.ai/v1"
     )
     return client, model_name
