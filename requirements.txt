@@ -1,6 +1,7 @@
 gitpython==3.1.40
 langchain==0.1.0
-sentence-transformers==2.2.2
+sentence-transformers==2.7.0
+huggingface_hub==0.23.0  # Explicitly pin to a compatible version
 chromadb==0.4.15
 pyyaml==6.0.1
-openai==1.12.0  # Add this for xAI API compatibility
+openai==1.12.0
